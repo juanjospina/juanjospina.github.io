@@ -1092,7 +1092,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: rgb(24, 24, 24);
 }
 input,
 button,
@@ -1281,6 +1281,7 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
+  color: #fcf8e3;
 }
 h4,
 .h4 {
@@ -1581,9 +1582,12 @@ pre code {
 }
 .container {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 15px; 
   margin-right: auto;
   margin-left: auto;
+  color: #f8f2f2;
+  
+  
 }
 @media (min-width: 768px) {
   .container {
@@ -4902,7 +4906,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: rgb(34, 33, 33);
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
@@ -5309,7 +5313,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: rgb(34, 33, 33);
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
