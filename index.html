@@ -96,13 +96,13 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active">
+            <!-- <div class="item active">
                 <div class="fill" style="background-image:url('images/es_neworleans.jpg');"></div>
                 <div class="carousel-caption">
                     <h2><strong>Researching the Optimization of Modern Electric Power Systems and the Integration of Distributed Energy Resources (DER) </strong></h2>
                 </div>
-            </div>
-            <div class="item">
+            </div> -->
+            <div class="item active">
                 <div class="fill" style="background-image:url('images/solar_pv_tall_2.jpg');"></div>
                 <div class="carousel-caption">
                     <h2><strong>Researching the Optimization of Modern Electric Power Systems and the Integration of Distributed Energy Resources (DER)  </strong></h2>
@@ -260,8 +260,9 @@
                 <ul>
                     <li> Working in the Information Systems and Modeling (A-1) Group at Los Alamos National Laboratory. </li>
                     <li> Developed an open-source Julia package called <a href="https://github.com/lanl-ansi/PowerModelsITD.jl">PowerModelsITD.jl</a> designed for modeling and optimizing integrated transmission-distribution (ITD) power networks tailored for researchers and stakeholders.</li>
-                    <li> Developed multiple linear, non-linear, approximation, relaxation, and hybrid ITD optimal power flow formulations designed to accelerate the research in the power system optimization field. </li>
-                </ul>
+                    <li> Developed multiple linear, non-linear, approximation, relaxation, and hybrid ITD optimal power flow formulations designed to solve large-scale integrated transmision-distribution (ITD) power network optimization problems. </li>
+                    <li> Developed studies designed to analyze and evaluate the feasibility of energy storage arbitrage and market manipulation strategies based on Load-Altering attacks (LAA) in ITD power networks.</li>
+                 </ul>
             </div>
 
 
@@ -347,6 +348,41 @@ security of port workers, used on both staff and machinery. </li>
                 <a name="publications_info"><h3 class="page-header">Publications & Patents</h3></a>
             </div>
 
+              <!-- Pub. 1 -->
+              <div class="row"> 
+                <div class="col-md-2">
+                    <a href="https://arxiv.org/abs/2210.16378">
+                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_pmitd.png" alt="" width="150" height="200">
+                    </a>
+                </div>
+    
+                <div class="col-md-4">
+                    <h4><a href="https://arxiv.org/abs/2210.16378">Modeling and Rapid Prototyping of Integrated Transmission-Distribution OPF Formulations with PowerModelsITD.jl</a></h4>
+                    <h5> In: <i>arXiv preprint arXiv:2210.16378 </i>, 2022, doi: https://doi.org/10.48550/arXiv.2210.16378</h5>
+                    <h5><strong>J. Ospina</strong>, D. M. Fobes, R. Bent, A. Wächter</h5>
+                    <!-- <span class="__dimensions_badge_embed__" data-doi="10.1109/OAJPE.2022.3155973" data-style="large_rectangle"></span> -->
+                </div>
+  
+              <!-- Pub. 2 -->
+      
+              <!-- <div class="col-md-2">
+                <a href="https://arxiv.org/pdf/2206.03543.pdf">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_cpes-qsm.png" alt="" width="150" height="200">
+                </a>
+              </div>
+  
+              <div class="col-md-4">
+                  <h4><a href="https://ieeexplore.ieee.org/document/9904852">CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems</a></h4>
+                  <h5> In: <i> IEEE Internet of Things Journal</i>, 2022, doi: 10.1109/JIOT.2022.3210402.</h5>
+                  <h5><strong>J. Ospina</strong>, V. Venkataramanan, C. Konstantinou</h5>
+                  <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2022.3210402" data-style="large_rectangle"></span>
+              </div> -->
+
+
+            </div>
+              
+            <hr>
+
             <!-- Pub. 1 -->
             <div class="row"> 
               <div class="col-md-2">
@@ -371,10 +407,10 @@ security of port workers, used on both staff and machinery. </li>
             </div>
 
             <div class="col-md-4">
-                <h4><a href="https://arxiv.org/pdf/2206.03543.pdf">CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems</a></h4>
-                <h5> In: <i>arXiv preprint arXiv:2206.03543</i>, .</h5>
+                <h4><a href="https://ieeexplore.ieee.org/document/9904852">CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems</a></h4>
+                <h5> In: <i> IEEE Internet of Things Journal</i>, 2022, doi: 10.1109/JIOT.2022.3210402.</h5>
                 <h5><strong>J. Ospina</strong>, V. Venkataramanan, C. Konstantinou</h5>
-                <!-- <span class="__dimensions_badge_embed__" data-doi="10.1109/JESTIE.2021.3087944" data-style="large_rectangle"></span> -->
+                <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2022.3210402" data-style="large_rectangle"></span>
             </div>
           </div>
             
@@ -715,9 +751,10 @@ security of port workers, used on both staff and machinery. </li>
                 <a name="talks_info"><h3 class="page-header">Talks and Presentations</h3></a>
             </div>
             <ul>
-            <li><a href="https://www.nrel.gov/grid/assets/pdfs/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf">"Towards the Optimization of Integrated Transmission-Distribution Networks via the Rapid Prototyping of OPF Formulations with PowerModelsITD.jl".</a> NREL Fifth Workshop on Autonomous Energy Systems. July 2022.</li>
-            <li><a href="https://attend.ieee.org/dmc-2022/framework-for-evaluating-cyberthreats-targeted-at-cyber-physical-energy-systems-cpes-from-threat-modeling-to-co-simulation-case-studies/">"Framework for Evaluating Cyberthreats targeted at Cyber-Physical Energy Systems (CPES): From Threat Modeling to Co-simulation Case Studies”.</a> IEEE Power Electronics Society (PELS) TC10 Design Methodologies web-seminar series. April 2022.</li>
-            <li><a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou">"DEMO: Trustworthy CPES: Time-Delay Attacks in a Real-Time Co-Simulation Environment”.</a> November 2020.</li>
+            <li>"Towards the Secure Operation of Cyber-Physical Energy Systems (CPES)". Invited presentation talk for the Research on Computing Systems (ROCS) Joint Group at King Abdullah University of Science and Technology (KAUST). November 2022. | <a href="slides/ROCS_InvitedTalk_JuanOspina-LA-UR-22-31034.pdf"><strong>Slides</strong></a></li>
+            <li><a href="https://www.nrel.gov/grid/assets/pdfs/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf">"Towards the Optimization of Integrated Transmission-Distribution Networks via the Rapid Prototyping of OPF Formulations with PowerModelsITD.jl".</a> NREL Fifth Workshop on Autonomous Energy Systems. July 2022. | <a href="slides/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf"><strong>Slides</strong></a></li>
+            <li><a href="https://attend.ieee.org/dmc-2022/framework-for-evaluating-cyberthreats-targeted-at-cyber-physical-energy-systems-cpes-from-threat-modeling-to-co-simulation-case-studies/">"Framework for Evaluating Cyberthreats targeted at Cyber-Physical Energy Systems (CPES): From Threat Modeling to Co-simulation Case Studies”.</a> IEEE Power Electronics Society (PELS) TC10 Design Methodologies web-seminar series. April 2022. | <a href="slides/PELS_TC10_PresentationSlides-LA-UR-22-22768.pdf"><strong>Slides</strong></a></li>
+            <li><a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou">"DEMO: Trustworthy CPES: Time-Delay Attacks in a Real-Time Co-Simulation Environment”.</a> November 2020. | <a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou"><strong>Video</strong></a></li>
             <li>"Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control (SBMPC)", GEARED Poster Session - Distributech 2019, New Orleans, February 2019.</li>
             <li><a href="http://sites.ieee.org/tallahassee/2018/11/01/joint-2018-famu-fsu-coe-caps-georgia-institute-of-technology-pdl/">"Optimal Control of PV-Integrated Energy Storage System using SBMPC"</a>, FAMU-FSU/CAPS-Georgia Tech. Joint Seminar, November 2018. </li>
             <li>"Cost Optimal Control of Microgrids Having Solar Power and Energy Storage", 2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D) - PES Poster Session, April 2018. </li>
