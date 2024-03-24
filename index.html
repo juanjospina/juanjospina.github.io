@@ -1,871 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>CV/Resume Website - Juan Ospina</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Custom Academicons -->
+        <link rel="stylesheet" href="academicons-1.9.4/css/academicons.min.css"/>
+    </head>
 
-<head>
+    <!-- Include Altmetrics Dimensions Badge -->
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Juan Ospina | Researcher</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <!-- <link href="font-awesome/css/all.css" rel="stylesheet" type="text/css"> -->
-
-    <!-- Custom Academicons -->
-    <link rel="stylesheet" href="academicons-1.9.4/css/academicons.min.css"/>
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<!-- Include Altmetrics Dimensions Badge -->
-<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Home</a>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Juan Ospina</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/juanj.jpg" alt=""/></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#talks">Talks</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                </ul>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#contact_info">Bio. and Contact</a>
-                    </li>
-
-                    <li>
-                        <a href="#academic_info">Academic</a>
-                    </li>
-
-                    <li>
-                        <a href="#experience_info">Experience</a>
-                    </li>
-
-                    <li>
-                        <a href="#publications_info">Publications</a>
-                    </li>
-
-
-                    <li>
-                        <a href="#talks_info">Talks</a>
-                    </li>
-
-
-                    <li>
-                        <a href="#tools_info">Tools</a>
-                    </li>
-
-		</ul>
-	</div>
-        <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('images/windenergy.jpg');"></div>
-                <div class="carousel-caption">
-                    <!-- <h2><strong>Researching the Optimization of Modern Electric Power Systems and the Integration of Distributed Energy Resources (DER) </strong></h2> -->
-                </div>
-            </div>
-            <div class="item active">
-                <div class="fill" style="background-image:url('images/solar_pv_tall_2.jpg');"></div>
-                <div class="carousel-caption">
-                    <!-- <h2><strong>Researching the Optimization of Modern Electric Power Systems and the Integration of Distributed Energy Resources (DER)  </strong></h2> -->
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('images/PV_neworleans.jpg');"></div>
-                <div class="carousel-caption">
-                    <!-- <h2><strong>Researching the Optimization of Modern Electric Power Systems and the Integration of Distributed Energy Resources (DER)  </strong></h2> -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-
-    <!-- Page Content -->
-    <!-- <div class="container", style="background-image: url('images/black-texture1.jpg');"> -->
-    <div class="container", style="background-image: url('')">
-
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <a name="contact_info"><h3 class="page-header">
-                    Bio. and Contact
-                </h3></a>
-            </div>
-
-            <!-- Image and Bio -->
-            <div class="col-md-3 text-center">
-                <div class="thumbnail">
-                    <img class="img-rounded" src="images/juanj.jpg" alt="" width="200" height="200" >
-                </div>
-                <div class="thumbnail">
-                    <h3>Juan Ospina<br></h3>
-                    <ul class="list-inline">
-                        </li>
-                        <!-- <i class="ai ai-google-scholar-square ai-3x"></i> -->
-                        <li><a href="https://scholar.google.com/citations?user=T39zSxsAAAAJ&hl=en">  <i class="ai ai-google-scholar-square ai-2x"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/juanjospina/">  <i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="https://github.com/juanjospina"><i class="fa fa-2x fa-github-square"></i></a>
-                        </li>
-                        <li><a href="https://orcid.org/0000-0003-2203-2065"><i class="ai ai-orcid-square ai-2x"></i></a>
-                        </li>
-                        <hr>
-                        <p><strong>Email:</strong></p>
-                        <p>juanospinacasas@gmail.com</p>
-                        <p><strong> Other Websites:</strong></p>
-                        <a href="https://gitlab.com/juanjospina"><p>Gitlab</p></a>
-                        <a href="https://www.webofscience.com/wos/author/record/1344209"><p>Web of Science</p></a>
-                        <a href="https://www.researchgate.net/profile/Juan-Ospina-17"><p>ResearchGate</p></a>
-                        <a href="https://ieeexplore.ieee.org/author/37296787200"><p>IEEEXplore</p></a>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Juan
+                        <span class="text-primary">Ospina</span>
+                    </h1>
+                    <div class="subheading">
+                        Los Alamos National Laboratory · Los Alamos, NM 87545
+                    </div>
+                    <div class="subheading">
+                        <a href="mailto:jjospina@lanl.gov">jjospina@lanl.gov</a>
+                    </div>
+                    <div class="subheading mb-5">
+                        <a href="mailto:juanospinacasas@gmail.com">juanospinacasas@gmail.com</a>
+                    </div>
+                    <p class="lead" align="justify"> I am a researcher and engineer currently working as a Scientist at Los Alamos National Laboratory (LANL). 
+                        I received a dual Bachelor of Science in Electrical and Computer Engineering, a Master of Science in Electrical Engineering, and a
+                        Ph.D. in Electrical Engineering from Florida State University in 2016, 2018, and 2019 respectively.
+                    </p>
+                    <p class="lead mb-4" align="justify">My professional experience encompasses research and development in the modeling and optimization of power systems,
+                        renewable energy integration, cybersecurity, real-time simulation, and other smart-grid applications. I believe in a sustainable, secure, and
+                        energy-efficient society driven by innovation and automation; that is why I find rewarding to work in areas related to
+                        machine learning, data analysis, reinforcement learning, optimization, real-time simulation, and cybersecurity with
+                        applications related to the power and energy fields.
+                    </p>
+                    <div class="social-icons mb-3">
+                        <a class="social-icon" href="https://scholar.google.com/citations?user=T39zSxsAAAAJ&hl=en"><i class="ai ai-google-scholar ai-3x"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/juanjospina/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a class="social-icon" href="https://github.com/juanjospina"><i class="fab fa-github fa-2x"></i></a>
+                        <a class="social-icon" href="https://gitlab.com/juanjospina"><i class="fab fa-gitlab fa-2x"></i></a>
+                        <a class="social-icon" href="https://orcid.org/0000-0003-2203-2065"><i class="fab fa-orcid fa-2x"></i></a>
+                        <a class="social-icon" href="https://www.researchgate.net/profile/Juan-Ospina-17"><i class="fab fa-researchgate fa-2x"></i></a>
+                    </div>
+                    <div class="social-icons mb-5">
+                        <!-- <h3><strong>Other</strong></h3> -->
+                        <a class="social-icon" href="https://www.webofscience.com/wos/author/record/1344209"><i class="ai ai-clarivate ai-2x"></i></a>
+                        <a class="social-icon" href="https://ieeexplore.ieee.org/author/37296787200"><i class="ai ai-ieee ai-2x"></i></a>
+                        <!-- <a class="social-icon" href="https://www.webofscience.com/wos/author/record/1344209"><i class="ai ai-clarivate ai-3x"></i></a> <a href="https://www.webofscience.com/wos/author/record/1344209"><p>Web of Science</p></a> -->
+                        <!-- <a class="social-icon" href="https://ieeexplore.ieee.org/author/37296787200"><i class="ai ai-ieee ai-3x"></i></a> <a href="https://ieeexplore.ieee.org/author/37296787200"><p>IEEEXplore</p></a> -->
+                    </div>
+                    <h3><strong>Membership in Professional Organizations</strong></h3>
+                    <ul>
+                        <li> <a href="https://cmte.ieee.org/pes-rsei">IEEE PES Task Force on Resilient and Secure Large-Scale Energy Internet Systems</a>	(TF RSEI). <i>Secretary</i> (2021 - present).</li>
+                        <li> <a href="https://www.nationalpostdoc.org/">National Postdoc Association (NPA)</a>. <i>Member</i> (2021 - present).</li>
+                        <li> <a href="https://www.ieee-pes.org/">IEEE Power & Energy Society (PES)</a>. <i>Member</i> (2013 - present). </li>
+                        <li> <a href="https://www.ieee.org/">Institute of Electrical and Electronics Engineers (IEEE)</a>. <i>Member</i> (2013 - present). </li>
+                        <li> <a href="https://hkn.ieee.org/">Eta Kappa Nu (IEEE-HKN) Honor Society</a>. <i>Member</i> (2015 - present). </li>
+                        <li> <a href="https://hkn.ieee.org/">Eta Kappa Nu (IEEE-HKN) Honor Society</a>. <i>Secretary</i> (2015-2016). </li>
                     </ul>
                 </div>
-            </div>
-
-
-
-            <div class="col-md-8">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3><i class="fa fa fa-book" ></i> Summary </h3>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4><a href="https://www.lanl.gov/"><img class="img-fluid" src="images/lanl_logo.png" alt="" width="70" height="70"></a> </h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Scientist</h3>
+                            <div class="subheading mb-3">Los Alamos National Laboratory (LANL)</div>
+                            <p> Los Alamos, NM </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jun 2023 - Present</span></div>
                     </div>
-                    <div class="panel-body">
-                        <p align="justify">I am a researcher and engineer currently working as a Scientist at Los Alamos National Laboratory (LANL). 
-                           I received a dual B.S. in Electrical and Computer Engineering, a M.S. in Electrical Engineering, and a
-                           Ph.D. in Electrical Engineering from Florida State University in 2016, 2018, and 2019 respectively.
-                        </p>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4><a href="https://www.lanl.gov/"><img class="img-fluid" src="images/lanl_logo.png" alt="" width="70" height="70"></a> </h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Postdoctoral Research Associate</h3>
+                            <div class="subheading mb-3">Los Alamos National Laboratory (LANL)</div>
+                            <p> Los Alamos, NM </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mar 2021 - Jun 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4><a href="https://www.caps.fsu.edu/"><img class="img-fluid" src="images/caps_logo.png" alt="" width="70" height="70"></a></h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Postdoctoral Research Associate</h3>
+                            <div class="subheading mb-3">Center for Advanced Power Systems (CAPS): Decision & Secure Systems (DSS) Lab. </div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2020  - Mar 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4><a href="https://www.epri.com/"><img class="img-fluid" src="images/epri_logo.png" alt="" width="85" height="35"></a></h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Analysis & Forecasting for Bulk System Renewable Integration Student Engineer</h3>
+                            <div class="subheading mb-3">Electric Power Research Institute (EPRI)</div>
+                            <p> Palo Alto, CA </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2019 - Aug 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4> <a href="https://www.caps.fsu.edu/"><img class="img-fluid" src="images/caps_logo.png" alt="" width="70" height="70"></a></h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Graduate Research Assistant</h3>
+                            <div class="subheading mb-3">
+                                Center for Advanced Power Systems (CAPS) & FAMU-FSU College of Engineering
+                                : Modeling & Simulation (ModSim) Lab.
+                            </div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2016 - Dec 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="col-md-1">
+                            <h4><a href="https://www.eng.famu.fsu.edu/"><img class="img-fluid" src="images/famu-fsu-coe-logo.png" alt="" width="70" height="80"> </a></h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Industrial Assessment Center (IAC) Student Analyst</h3>
+                            <div class="subheading mb-3">Industrial Assessment Center, Department of Energy (DOE) & FAMU-FSU College of Engineering</div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sept 2016 - Dec 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="col-md-1">
+                            <h4><a href="#"><img class="img-fluid" src="images/idtech_logo.png" alt="" width="70" height="80"> </a></h4>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Computer Engineer Intern</h3>
+                            <div class="subheading mb-3">ID Tech Logistics</div>
+                            <p> Panama City, Panama </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2015 - Aug 2015</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="70" height="70"></a></h3>
+                            <div class="subheading">Ph.D.</div>
+                            <div>Electrical Engineering</div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sept 2016 - Dec 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="70" height="70"></a></h3>
+                            <div class="subheading">Masters</div>
+                            <div>Electrical Engineering</div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sept 2016 - Dec 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="70" height="70"></a></h3>
+                            <div class="subheading">Bachelor of Science</div>
+                            <div>Electrical Engineering</div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sept 2011 - May 2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="70" height="70"></a></h3>
+                            <div class="subheading">Bachelor of Science</div>
+                            <div>Computer Engineering</div>
+                            <p> Tallahassee, FL </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sept 2011 - May 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-c"></i></li>
 
-                        <p align="justify">My professional experience is focused on the research and development of intelligent control systems for power systems and smart-grid
-                          applications, renewable energy integration, cybersecurity, and real-time simulation. I believe in a sustainable, secure, and
-                          energy-efficient society driven by innovation and automation; that is why I find rewarding working in areas related to
-                          machine learning, data analysis, reinforcement learning, optimization, real-time simulation, and cyber-security with
-                          applications related to the power and energy fields.
-                        </p>
+                    </ul>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Python </li>
+                        <li>Julia </li>
+                        <li>MATLAB</li>
+                        <li>Assembly</li>
+                        <li>HTML5</li>
+                        <li>JavaScript </li>
+                        <li>PHP</li>
+                        <li>VHDL</li>
+                    </ul>
+                    <div class="subheading mb-3">Software Tools</div>
+                    <ul>
+                        <li>PowerModels.jl</li>
+                        <li>PowerModelsDistribution.jl</li>
+                        <li>PowerModelsITD.jl</li>
+                        <li>Docker</li>
+                        <li>Git </li>
+                        <li>Tensorflow</li>
+                        <li>OpenDSS</li>
+                        <li>MATLAB/Simulink</li>
+                        <li>MATPOWER</li>
+                        <li>Power Systems Analysis Toolbox (PSAT)</li>
+                        <li>RT-LAB (OPAL-RT)</li>
+                        <li>CORE: Common Open Research Emulator</li>
+                        <li>ExataCPS</li>
+                        <li>Keras</li>
+                        <li>OpenDNP3</li>
+                        <li>OpenPDC</li>
+                        <li>NI LabVIEW</li>
+                        <li>Modelsim Quartus</li>
+                        <li>Multisim</li>
+                        <li>System Advisor Model (SAM)</li>
+                        <li>OrCAD/Diptrace</li>
+                        <li>Databases: SQL, SQLite, MySQL</li>
+                        <li>GNU/Linux</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="talks">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Talks and Presentations</h2>
+                    <ul>
+                        <li>"Modeling & Co-optimizing Integrated Transmission & Distribution Systems". Invited presentation, Department of Electrical and Computer Engineering - Auburn University. February 2024. | <a href="slides/LA-UR-24-20818_AuburnUniversity.pdf"><strong>Slides</strong></a></li>
                         <hr>
-                        
-                        <h4><strong>Membership in Professional Organizations</strong></h4>
-                        <ul>
-                          <li> <a href="https://cmte.ieee.org/pes-rsei">IEEE PES Task Force on Resilient and Secure Large-Scale Energy Internet Systems</a>	(TF RSEI). <i>Secretary</i> (2021 - present).</li>
-                          <li> <a href="https://www.nationalpostdoc.org/">National Postdoc Association (NPA)</a>. <i>Member</i> (2021 - present).</li>
-                          <li> <a href="https://www.ieee-pes.org/">IEEE Power & Energy Society (PES)</a>. <i>Member</i> (2013 - present). </li>
-                          <li> <a href="https://www.ieee.org/">Institute of Electrical and Electronics Engineers (IEEE)</a>. <i>Member</i> (2013 - present). </li>
-                          <li> <a href="https://hkn.ieee.org/">Eta Kappa Nu (IEEE-HKN) Honor Society</a>. <i>Member</i> (2015 - present). </li>
-                          <li> <a href="https://hkn.ieee.org/">Eta Kappa Nu (IEEE-HKN) Honor Society</a>. <i>Secretary</i> (2015-2016). </li>
-                      </ul>
-                        
-
-
-                    </div>
+                        <li>"Co-optimizing Integrated Transmission-Distribution Systems using PowerModelsITD.jl". Invited panelist on State-of-the-Art Review on TSO-DSO Coordination Models and Solution Methodologies panel at the 2023 IEEE Power & Energy Society General Meeting. July 2023. | <a href="slides/LA-UR-23-26135_IEEEPES_Panel_JuanOspina_LANL.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li>"Modeling and Co-optimizing Integrated Transmission-Distribution Systems". Invited presentation talk for New Mexico State University (NMSU) & Microgrid Systems Laboratory seminar. May 2023. | <a href="slides/NMSU_Workshop_InvitedTalk_JuanOspina -LA-UR-23-24536.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li>"Modeling and Co-optimizing Integrated Transmission-Distribution (ITD) Systems using PowerModelsITD.jl". Poster session for Office of Electricity (OE) Deparment of Energy (DOE) visit. May 2023. | <a href="slides/DOE-OE_PosterEvent_JuanOspina_LA-UR-23-25011.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li>"Towards the Secure Operation of Cyber-Physical Energy Systems (CPES)". Invited presentation talk for the Research on Computing Systems (ROCS) Joint Group at King Abdullah University of Science and Technology (KAUST). November 2022. | <a href="slides/ROCS_InvitedTalk_JuanOspina-LA-UR-22-31034.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li><a href="https://www.nrel.gov/grid/assets/pdfs/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf">"Towards the Optimization of Integrated Transmission-Distribution Networks via the Rapid Prototyping of OPF Formulations with PowerModelsITD.jl".</a> NREL Fifth Workshop on Autonomous Energy Systems. July 2022. | <a href="slides/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li><a href="https://attend.ieee.org/dmc-2022/framework-for-evaluating-cyberthreats-targeted-at-cyber-physical-energy-systems-cpes-from-threat-modeling-to-co-simulation-case-studies/">"Framework for Evaluating Cyberthreats targeted at Cyber-Physical Energy Systems (CPES): From Threat Modeling to Co-simulation Case Studies”.</a> IEEE Power Electronics Society (PELS) TC10 Design Methodologies web-seminar series. April 2022. | <a href="slides/PELS_TC10_PresentationSlides-LA-UR-22-22768.pdf"><strong>Slides</strong></a></li>
+                        <hr>
+                        <li><a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou">"DEMO: Trustworthy CPES: Time-Delay Attacks in a Real-Time Co-Simulation Environment”.</a> November 2020. | <a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou"><strong>Video</strong></a></li>
+                        <hr>
+                        <li>"Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control (SBMPC)", GEARED Poster Session - Distributech 2019, New Orleans, February 2019.</li>
+                        <hr>
+                        <li><a href="http://sites.ieee.org/tallahassee/2018/11/01/joint-2018-famu-fsu-coe-caps-georgia-institute-of-technology-pdl/">"Optimal Control of PV-Integrated Energy Storage System using SBMPC"</a>, FAMU-FSU/CAPS-Georgia Tech. Joint Seminar, November 2018. </li>
+                        <hr>
+                        <li>"Cost Optimal Control of Microgrids Having Solar Power and Energy Storage", 2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D) - PES Poster Session, April 2018. </li>
+                        <hr>
+                        <li>"Forecasting of PV Plant Output Using Weather Data and Wavelet-Based Neural Network", FEEDER Seminar Series Fall 2017, October 2017. </li>
+                        <hr>
+                        <li>"Optimal Control of PV and Energy Storage Considering Current and Future Weather and Real-time Price of Energy", FAMU-FSU COE ECE Seminar, October 2017. </li>
+                        <hr>
+                        <li>"Development of Optimal Control Systems developed for the Smart Grid", 2017 Collaborative Collision Environment, Florida State University, September 2017. </li>
+                        <hr>
+                        <li>"Smart Enterprise Energy Management System Under Real-time Pricing and Demand Response", GEARED Poster Session - Distributech 2017, San Diego, February 2017. </li>
+                    </ul>
                 </div>
-            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publications</h2>
+                    <ul class="fa-ul mb-0">
+                        
+                        <div class="row"> 
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/10015147">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_pmitd.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/10015147">Modeling and Rapid Prototyping of Integrated Transmission-Distribution OPF Formulations with PowerModelsITD.jl</a></h4>
+                                <h6> In: <i>IEEE Transactions on Power Systems</i>, 2023, doi: 10.1109/TPWRS.2023.3234725</h6>
+                                <h5><strong>J. Ospina</strong>, D. M. Fobes, R. Bent, A. Wächter</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/TPWRS.2023.3234725" data-style="large_rectangle"></span>
+                            </div>
+            
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://www.mdpi.com/1996-1073/16/4/1670">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/energies_feasibility.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://www.mdpi.com/1996-1073/16/4/1670">On the Feasibility of Market Manipulation and Energy Storage Arbitrage via Load-Altering Attacks</a></h4>
+                                <h6> In: <i> Energies, Special Issue Cyber Security in Modern Power Systems </i>, 2023, doi: https://doi.org/10.3390/en16041670.</h6>
+                                <h5><strong>J. Ospina</strong>, D. M. Fobes, R. Bent</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.3390/en16041670" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+              
+                        <hr>
 
+                        <div class="row"> 
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9726888">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/laa_paper_res.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9726888">Load-Altering Attacks Against Power Grids under COVID-19 Low-Inertia Conditions</a></h4>
+                                <h6> In: <i>IEEE Open Access Journal of Power and Energy </i>,  vol. 9, pp. 226-240, 2022, doi: 10.1109/OAJPE.2022.3155973.</h6>
+                                <h5>S. Lakshminarayana, <strong>J. Ospina</strong>, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/OAJPE.2022.3155973" data-style="large_rectangle"></span>
+                            </div>
 
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                            <a href="https://arxiv.org/pdf/2206.03543.pdf">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_cpes-qsm.png" alt="" width="150" height="200">
+                            </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/document/9904852">CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems</a></h4>
+                                <h6> In: <i> IEEE Internet of Things Journal</i>, 2022, doi: 10.1109/JIOT.2022.3210402.</h6>
+                                <h5><strong>J. Ospina</strong>, V. Venkataramanan, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2022.3210402" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+            
+                        <hr>
+            
+                        <div class="row"> 
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9512343">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ests2021_evalcommnetworks.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9512343">Evaluation of Communication Network Models for Shipboard Power Systems</a></h4>
+                                <h6> In: <i>2021 IEEE Electric Ship Technologies Symposium (ESTS) </i>, 1-9, August 2021.</h6>
+                                <h5><strong>J. Ospina</strong>, C. Konstantinou, M. Stanovich, M. Steurer</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/ESTS49166.2021.9512343" data-style="large_rectangle"></span>
+                            </div>
+                
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9450018">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_estie_cover.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9450018">Controller Hardware-In-the-Loop Validation of Coordinated Voltage Control Scheme for Distribution Systems Containing Inverter-Based Distributed Generation</a></h4>
+                                <h6> In: <i>IEEE Journal of Emerging and Selected Topics in Industrial Electronics</i>, Early Access.</h6>
+                                <h5>A. Newaz, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/JESTIE.2021.3087944" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+    
+                        <hr>
+
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://dl.acm.org/doi/10.1145/3470481.3472703">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_fasterthanrts.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://dl.acm.org/doi/10.1145/3470481.3472703">Faster than Real-Time Simulation: Methods, Tools, and Applications</a></h4>
+                                <h6> In: <i>MSCPES '21: Proceedings of the 9th Workshop on Modeling and Simulation of Cyber-Physical Energy Systems </i>, Article No.: 3, Pages 1-–7, May 2021.</h6>
+                                <h5>X. Liu, <strong>J. Ospina</strong>, I. Zografopoulos, A. Russell, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1145/3470481.3472703" data-style="large_rectangle"></span>
+                            </div>
+                
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9351954">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccesscpes.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9351954">Cyber-Physical Energy Systems Security: Threat Modeling, Risk Assessment, Resources, Metrics, and Case Studies</a></h4>
+                                <h6> In: <i>IEEE Access</i>, vol. 9, pp. 29775-29818, 2021, doi: 10.1109/ACCESS.2021.3058403.</h6>
+                                <h5> I. Zografopoulos, <strong>J. Ospina</strong>, X. Liu, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/ACCESS.2021.3058403" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+                
+                        <hr>
+
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9324816">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeemerg.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9324816">A Review of Current Research Trends in Power-Electronic Innovations in Cyber-Physical Systems</a></h4>
+                                <h6> In: <i>IEEE Journal of Emerging and Selected Topics in Power Electronics</i>,  doi: 10.1109/JESTPE.2021.3051876.</h6>
+                                <h5>S. K. Mazumder et al.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/JESTPE.2021.3051876" data-style="large_rectangle"></span>
+                            </div>
+
+                            <!-- Pub. 2 -->
+
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9308900">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccessload.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9308900">On the Feasibility of Load-Changing Attacks in Power Systems during the COVID-19 Pandemic</a></h4>
+                                <h6> In: <i>IEEE Access</i>, vol. 9, pp. 2545-2563, 2021, doi: 10.1109/ACCESS.2020.3047374.</h6>
+                                <h5> <strong>J. Ospina</strong>, X. Liu, C. Konstantinou and Y. Dvorkin</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/ACCESS.2020.3047374" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9261465">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccessdeep.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9261465">Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems</a></h4>
+                                <h6> In: <i>IEEE Access</i>, vol. 8, pp. 208378-208394, 2020, doi: 10.1109/ACCESS.2020.3038769.</h6>
+                                <h5>X. Liu, <strong>J. Ospina</strong>, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/access.2020.3038769" data-style="large_rectangle"></span>
+                            </div>
+
+                            <!-- Pub. 2 -->
+
+                            <div class="col-md-2">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3411498.3422926">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/demotrust.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://dl.acm.org/doi/abs/10.1145/3411498.3422926">DEMO: Trustworthy Cyberphysical Energy Systems: Time-Delay Attacks in a Real-Time Co-Simulation Environment</a></h4>
+                                <h6> In: <i>Proceedings of the 2020 Joint Workshop on CPS&IoT Security and Privacy</i>, in conjunction with the ACM Conference on Computer and Communications Security (CCS), 2020, doi: https://doi.org/10.1145/3411498.3422926 .</h6>
+                                <h5> <strong>J. Ospina</strong>, I. Zografopoulos, X. Liu, C. Konstantinou</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1145/3411498.3422926" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                            <a href="https://ieeexplore.ieee.org/abstract/document/9283536">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/iccd2020.PNG" alt="" width="150" height="200">
+                            </a>
+                            </div>
+            
+                            <div class="col-md-4">
+                            <h4><a href="https://ieeexplore.ieee.org/abstract/document/9283536">Special Session: Harness the Power of DERs for Secure Communications in Electric Energy Systems</a></h4>
+                            <h6> In: <i>2020 IEEE 38th International Conference on Computer Design (ICCD)</i>, 2020.</h6>
+                            <h5>I. Zografopoulos, <strong>J. Ospina</strong>, C. Konstantinou</h5>
+                            <span class="__dimensions_badge_embed__" data-doi="10.1109/ICCD50377.2020.00025" data-style="large_rectangle"></span>
+                            </div>
+            
+                            <!-- Pub. 2 -->
+            
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9311540">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/cyberpels.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+            
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9311540">Modeling Communication Networks in a Real-Time Simulation Environment for Evaluating Controls of Shipboard Power Systems</a></h4>
+                                <h6> In: <i>2020 IEEE CyberPELS (CyberPELS)</i>, 2020.</h6>
+                                <h5> C. Ogilvie, <strong>J. Ospina</strong>, C. Konstantinou, T. Vu, M. Stanovich, K. Schoder, M. Steurer</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/CyberPELS49534.2020.9311540" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+
+                        <hr>
+            
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/document/8894839">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_ec_cover.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/document/8894839">Controller Hardware in the Loop Validation of A Graph Search Based Energy Management Strategy for Grid-Connected Distributed Energy Resources</a></h4>
+                                <h6> In: <i>IEEE Transactions on Energy Conversion</i>, vol. 35, no. 1, pp. 520-528, March 2020.</h6>
+                                <h5>A. Newaz, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/tec.2019.2952575" data-style="large_rectangle"></span>
+                            </div>
+
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://digital-library.theiet.org/content/journals/10.1049/joe.2019.0896">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ietje_cover.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://digital-library.theiet.org/content/journals/10.1049/joe.2019.0896">Fault Classification and Location Identification in a Smart Distribution Network using ANN and Advanced Metering Infrastructure with Real-time Data</a></h4>
+                                <h6> In: <i>The Journal of Engineering</i>, (1), p. 19-28, 2019.</h6>
+                                <h5> M. U. Usman, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1049/joe.2019.0896" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                            <a href="https://ieeexplore.ieee.org/document/8805394">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_pej_cover.PNG" alt="" width="150" height="200">
+                            </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/document/8805394">Sampling-Based Model Predictive Control of PV-Integrated Energy Storage System Considering Power Generation Forecast and Real-Time Price</a></h4>
+                                <h6> In: <i>IEEE Power and Energy Technology Systems Journal</i>, vol. 6, no. 4, pp. 195-207, Dec. 2019.</h6>
+                                <h5><strong>J. Ospina</strong>, N. Gupta, A. Newaz, M. Harper, M. Omar Faruque, E. G. Collins, R. Meeker, G. Lofman.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/JPETS.2019.2935703" data-style="large_rectangle"></span>
+                            </div>
+
+                            <!-- Pub. 2 -->
+
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/8973628">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2019_cover.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/8973628">Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control Considering PV Generation Forecast and Real-time Pricing</a></h4>
+                                <h6> In: <i>2019 IEEE Power & Energy Society General Meeting (PESGM)</i>, Atlanta, GA, USA, 2019, pp. 1-5.</h6>
+                                <h5><strong>J. Ospina</strong>, M. Harper, A. Newaz, M. Omar Faruque, E. G. Collins, R. Meeker, N. Ainsworth</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM40551.2019.8973628" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
+
+                        <hr>
           
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/8973496">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2019_cover.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
 
-        </div>
-        <!-- /.row -->
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/8973496">Coordinated Voltage Control in Distribution Systems with Distributed Generations</a></h4>
+                                <h6> In: <i>2019 IEEE Power & Energy Society General Meeting (PESGM)</i>,  Atlanta, GA, USA, 2019, pp. 1-5.</h6>
+                                <h5>A. Newaz, <strong>J. Ospina</strong>, M. O. Faruque.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM40551.2019.8973496" data-style="large_rectangle"></span>
+                            </div>
 
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rpg.2018.5779">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ietrpg_cover.jpg" alt="" width="150" height="200">
+                                </a>
+                            </div>
 
-        <!-- Academic Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <a name="academic_info"><h3 class="page-header"> Academic Formation </h3></a>
-            </div>
+                            <div class="col-md-4">
+                                <h4><a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rpg.2018.5779">Forecasting of PV Plant Output Using Hybrid Wavelet-Based LSTM-DNN Structure Model</a></h4>
+                                <h6> In: <i>IET Renewable Power Generation</i>, vol. 13, no. 7, pp. 1087-1095, 20 5 2019.</h6>
+                                <h5><strong>J. Ospina</strong>, A. Newaz, M. O. Faruque.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1049/iet-rpg.2018.5779" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
 
+                        <hr>
 
-            <div class="col-md-8">
-                <h4><strong>Ph.D. in Electrical Engineering</strong></h4>
-                <h4> Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="50" height="50"></a></h4>
-                <p>Sept 2016 - Dec 2019</p>
-            </div>
-           
+        
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8586471">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2018_cover.png" alt="" width="150" height="200">
+                            </a>
+                            </div>
 
-            <div class="col-md-8">
-                <h4><strong>M.S. in Electrical Engineering</strong></h4>
-                <h4> Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="50" height="50"></a></h4>
-                <p>Sept 2016 - Dec 2018</p>
-            </div>
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/8586471">Fault Classification and Location Identification in a Smart Distribution Network Using ANN</a></h4>
+                                <h6> In: <i>2018 IEEE Power & Energy Society General Meeting (PESGM)</i>, Portland, OR, 2018, pp. 1-6.</h6>
+                                <h5>M. U. Usman, <strong>J. Ospina</strong>, M. O. Faruque.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM.2018.8586471" data-style="large_rectangle"></span>
+                            </div>
 
+                            <!-- Pub. 2 -->
 
-            <div class="col-md-8">
-                <h4><strong>Bachelor's Degree in Electrical Engineering</strong></h4>
-                <h4> Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="50" height="50"></a></h4>
-                <p>Sept 2011 - May 2016</p>
-            </div>
+                            <div class="col-md-2">
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8440304">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/tandd_cover.png" alt="" width="150" height="200">
+                            </a>
+                            </div>
 
-            <div class="col-md-8">
-                <h4><strong>Bachelor's Degree in Computer Engineering</strong></h4>
-                <h4> Florida State University <a href="https://www.fsu.edu/"><img class="img-fluid" src="images/fsu_logo.png" alt="" width="50" height="50"></a></h4>
-                <p>Sept 2011 - May 2016</p>
-            </div>
+                            <div class="col-md-4">
+                                <h4><a href="https://ieeexplore.ieee.org/abstract/document/8440304">Cost Optimal Control of Microgrids Having Solar Power and Energy Storage</a></h4>
+                                <h6> In: <i>2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D)</i>, Denver, CO, 2018, pp. 1-9.</h6>
+                                <h5>N. Gupta, G. Francis, <strong>J. Ospina</strong>, A. Newaz, E. G. Collins, O. Faruque, R. Meeker, M. Harper.</h5>
+                                <span class="__dimensions_badge_embed__" data-doi="10.1109/TDC.2018.8440304" data-style="large_rectangle"></span>
+                            </div>
+                        </div>
 
-        </div>
-        <!-- /.row -->
-
-
-	<!-- Experience Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <a name="experience_info"><h3 class="page-header"> Experience Timeline </h3></a>
-            </div>
-
-            <div class="col-md-1">
-              <h4><a href="https://www.lanl.gov/"><img class="img-fluid" src="images/lanl_logo.png" alt="" width="50" height="50"></a> </h4>
-            </div>
-
-            <div class="col-md-11">
-                <h4> <strong>Scientist</strong>, Los Alamos National Laboratory (LANL)</h4>
-                <p> Jun 2023 - Present </p>
-            </div>
-
-            <br>
-
-            <div class="col-md-1">
-              <h4><a href="https://www.lanl.gov/"><img class="img-fluid" src="images/lanl_logo.png" alt="" width="50" height="50"></a> </h4>
-            </div>
-
-            <div class="col-md-11">
-                <h4> <strong>Postdoctoral Research Associate</strong>, Los Alamos National Laboratory (LANL)</h4>
-                <p> Mar 2021 - Jun 2023 </p>
-            </div>
-
-            <br>
-
-            <div class="col-md-1">
-              <h4><a href="https://www.caps.fsu.edu/"><img class="img-fluid" src="images/caps_logo.png" alt="" width="50" height="50"></a></h4>
-           </div>
-
-            <div class="col-md-11">
-                <h4> <strong>Postdoctoral Research Associate</strong>, Center for Advanced Power Systems (CAPS)</h4>
-                <p> Jan 2020  - Mar 2021 </p>
-            </div>
-
-            <br>
-
-            <div class="col-md-1">
-              <h4><a href="https://www.epri.com/"><img class="img-fluid" src="images/epri_logo.png" alt="" width="85" height="35"></a></h4>
-            </div>
-
-            <div class="col-md-11">
-                <h4> <strong>Data Analysis & Forecasting for Bulk System Renewable Integration Student Engineer</strong>,  Electric Power Research Institute (EPRI)</h4>
-                <p> May 2019 - Aug 2019 </p>
-            </div>
-
-            <br>
-
-            <div class="col-md-1">
-              <h4> <a href="https://www.caps.fsu.edu/"><img class="img-fluid" src="images/caps_logo.png" alt="" width="50" height="50"></a></h4>
-            </div>
-
-            <div class="col-md-11">
-                <h4><strong>Graduate Research Assistant</strong>, Center for Advanced Power Systems (CAPS) & FAMU-FSU College of Engineering </h4>
-                <p> May 2016 - Dec 2019 </p>
-            </div>
-
-            <br>
-
-            <div class="col-md-1">
-              <h4><a href="https://www.eng.famu.fsu.edu/"><img class="img-fluid" src="images/famu-fsu-coe-logo.png" alt="" width="70" height="80"> </a></h4>
-            </div>
-
-            <div class="col-md-11">
-                <h4> <strong>Industrial Assessment Center (IAC) Student Analyst</strong>, Industrial Assessment Center, Department of Energy (DOE) & FAMU-FSU College of Engineering</h4>
-                <p> Sept 2016 - Dec 2019 </p>
-            </div>
-            
-            <br>
-
-            <div class="col-md-11">
-                <h4><strong>Computer Engineer Intern</strong>, ID Tech Logistics</h4>
-                <p> May 2015 - Aug 2015 </p>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-
-         <div class="row">
-            <div class="col-lg-12">
-                <a name="publications_info"><h3 class="page-header">Publications & Patents</h3></a>
-            </div>
-
-              <!-- Pub. 1 -->
-              <div class="row"> 
-                <div class="col-md-2">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10015147">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_pmitd.png" alt="" width="150" height="200">
-                    </a>
-                </div>
-    
-                <div class="col-md-4">
-                    <h4><a href="https://ieeexplore.ieee.org/abstract/document/10015147">Modeling and Rapid Prototyping of Integrated Transmission-Distribution OPF Formulations with PowerModelsITD.jl</a></h4>
-                    <h5> In: <i>IEEE Transactions on Power Systems</i>, 2023, doi: 10.1109/TPWRS.2023.3234725</h5>
-                    <h5><strong>J. Ospina</strong>, D. M. Fobes, R. Bent, A. Wächter</h5>
-                    <span class="__dimensions_badge_embed__" data-doi="10.1109/TPWRS.2023.3234725" data-style="large_rectangle"></span>
-                </div>
-  
-              <!-- Pub. 2 -->
+                        <hr>
       
-              <div class="col-md-2">
-                <a href="https://www.mdpi.com/1996-1073/16/4/1670">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/energies_feasibility.png" alt="" width="150" height="200">
-                </a>
-              </div>
-  
-              <div class="col-md-4">
-                  <h4><a href="https://www.mdpi.com/1996-1073/16/4/1670">On the Feasibility of Market Manipulation and Energy Storage Arbitrage via Load-Altering Attacks</a></h4>
-                  <h5> In: <i> Energies, Special Issue Cyber Security in Modern Power Systems </i>, 2023, doi: https://doi.org/10.3390/en16041670.</h5>
-                  <h5><strong>J. Ospina</strong>, D. M. Fobes, R. Bent</h5>
-                  <span class="__dimensions_badge_embed__" data-doi="10.3390/en16041670" data-style="large_rectangle"></span>
-              </div>
+                        <div class="row">
+                            <!-- Pub. 1 -->
+                            <div class="col-md-2">
+                                <a href="https://patents.google.com/patent/US20190036340A1/en">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/patent_cover.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
 
+                            <div class="col-md-4">
+                                <h4><a href="https://patents.google.com/patent/US20190036340A1/en">Optimal Control Technology for Distributed Energy Resources</a></h4>
+                                <h6> <i>Patent. Florida State University Research Foundation Inc.</i>, 2019/2021. U.S. Patent 11,043,815.</h6>
+                                <h5>R. Meeker, M. O. Faruque, <strong>J. Ospina</strong>, A. Newaz, E. G. Collins, G. Francis, N. Gupta.</h5>
+                            </div>
 
-            </div>
-              
-            <hr>
+                            <!-- Pub. 2 -->
+                            <div class="col-md-2">
+                                <a href="https://purl.lib.fsu.edu/diginole/2019_Fall_Ospina_fsu_0071E_15540">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/phd_thesis_cover.PNG" alt="" width="150" height="200">
+                                </a>
+                            </div>
 
-            <!-- Pub. 1 -->
-            <div class="row"> 
-              <div class="col-md-2">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/9726888">
-                      <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/laa_paper_res.png" alt="" width="150" height="200">
-                  </a>
-              </div>
-  
-              <div class="col-md-4">
-                  <h4><a href="https://ieeexplore.ieee.org/abstract/document/9726888">Load-Altering Attacks Against Power Grids under COVID-19 Low-Inertia Conditions</a></h4>
-                  <h5> In: <i>IEEE Open Access Journal of Power and Energy </i>,  vol. 9, pp. 226-240, 2022, doi: 10.1109/OAJPE.2022.3155973.</h5>
-                  <h5>S. Lakshminarayana, <strong>J. Ospina</strong>, C. Konstantinou</h5>
-                  <span class="__dimensions_badge_embed__" data-doi="10.1109/OAJPE.2022.3155973" data-style="large_rectangle"></span>
-              </div>
+                            <div class="col-md-4">
+                                <h4><a href="https://purl.lib.fsu.edu/diginole/2019_Fall_Ospina_fsu_0071E_15540">Energy Management System for Smart Buildings and Microgrids Using Sampling-Based Model Predictive Control (SBMPC) and Machine Learning</a></h4>
+                                <h6> <i>Ph.D. Thesis</i>, Florida State University, 2019, Tallahassee, Florida.</h6>
+                                <h5><strong>J. Ospina</strong></h5>
+                                <!-- <span class="__dimensions_badge_embed__" data-doi="10.1109/TDC.2018.8440304" data-style="large_rectangle"></span> -->
+                        </div>
 
-            <!-- Pub. 2 -->
-    
-            <div class="col-md-2">
-              <a href="https://arxiv.org/pdf/2206.03543.pdf">
-                  <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_cpes-qsm.png" alt="" width="150" height="200">
-              </a>
-            </div>
-
-            <div class="col-md-4">
-                <h4><a href="https://ieeexplore.ieee.org/document/9904852">CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems</a></h4>
-                <h5> In: <i> IEEE Internet of Things Journal</i>, 2022, doi: 10.1109/JIOT.2022.3210402.</h5>
-                <h5><strong>J. Ospina</strong>, V. Venkataramanan, C. Konstantinou</h5>
-                <span class="__dimensions_badge_embed__" data-doi="10.1109/JIOT.2022.3210402" data-style="large_rectangle"></span>
-            </div>
-          </div>
-            
-          <hr>
-              
-
-            <!-- Pub. 1 -->
-            <div class="row"> 
-                <div class="col-md-2">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/9512343">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ests2021_evalcommnetworks.PNG" alt="" width="150" height="200">
-                    </a>
+                    </ul>
                 </div>
-    
-                <div class="col-md-4">
-                    <h4><a href="https://ieeexplore.ieee.org/abstract/document/9512343">Evaluation of Communication Network Models for Shipboard Power Systems</a></h4>
-                    <h5> In: <i>2021 IEEE Electric Ship Technologies Symposium (ESTS) </i>, 1-9, August 2021.</h5>
-                    <h5><strong>J. Ospina</strong>, C. Konstantinou, M. Stanovich, M. Steurer</h5>
-                    <span class="__dimensions_badge_embed__" data-doi="10.1109/ESTS49166.2021.9512343" data-style="large_rectangle"></span>
-                </div>
-    
-                <!-- Pub. 2 -->
-    
-                <div class="col-md-2">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/9450018">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_estie_cover.PNG" alt="" width="150" height="200">
-                    </a>
-                </div>
-    
-                <div class="col-md-4">
-                    <h4><a href="https://ieeexplore.ieee.org/abstract/document/9450018">Controller Hardware-In-the-Loop Validation of Coordinated Voltage Control Scheme for Distribution Systems Containing Inverter-Based Distributed Generation</a></h4>
-                    <h5> In: <i>IEEE Journal of Emerging and Selected Topics in Industrial Electronics</i>, Early Access.</h5>
-                    <h5>A. Newaz, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
-                    <span class="__dimensions_badge_embed__" data-doi="10.1109/JESTIE.2021.3087944" data-style="large_rectangle"></span>
-                </div>
-            </div>
-    
-            <hr>
-
-            <!-- Pub. 1 -->
-            <div class="row"> 
-                <div class="col-md-2">
-                    <a href="https://dl.acm.org/doi/10.1145/3470481.3472703">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/arxiv_fasterthanrts.PNG" alt="" width="150" height="200">
-                    </a>
-                </div>
-    
-                <div class="col-md-4">
-                    <h4><a href="https://dl.acm.org/doi/10.1145/3470481.3472703">Faster than Real-Time Simulation: Methods, Tools, and Applications</a></h4>
-                    <h5> In: <i>MSCPES '21: Proceedings of the 9th Workshop on Modeling and Simulation of Cyber-Physical Energy Systems </i>, Article No.: 3, Pages 1–7, May 2021.</h5>
-                    <h5>X. Liu, <strong>J. Ospina</strong>, I. Zografopoulos, A. Russell, C. Konstantinou</h5>
-                    <span class="__dimensions_badge_embed__" data-doi="10.1145/3470481.3472703" data-style="large_rectangle"></span>
-                </div>
-    
-                <!-- Pub. 2 -->
-    
-                <div class="col-md-2">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/9351954">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccesscpes.PNG" alt="" width="150" height="200">
-                    </a>
-                </div>
-    
-                <div class="col-md-4">
-                    <h4><a href="https://ieeexplore.ieee.org/abstract/document/9351954">Cyber-Physical Energy Systems Security: Threat Modeling, Risk Assessment, Resources, Metrics, and Case Studies</a></h4>
-                    <h5> In: <i>IEEE Access</i>, vol. 9, pp. 29775-29818, 2021, doi: 10.1109/ACCESS.2021.3058403.</h5>
-                    <h5> I. Zografopoulos, <strong>J. Ospina</strong>, X. Liu, C. Konstantinou</h5>
-                    <span class="__dimensions_badge_embed__" data-doi="10.1109/ACCESS.2021.3058403" data-style="large_rectangle"></span>
-                </div>
-            </div>
-    
-            <hr>
-
-            <!-- Pub. 1 -->
-            <div class="row">
-            <div class="col-md-2">
-                <a href="https://ieeexplore.ieee.org/abstract/document/9324816">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeemerg.PNG" alt="" width="150" height="200">
-                </a>
-            </div>
-
-            <div class="col-md-4">
-                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9324816">A Review of Current Research Trends in Power-Electronic Innovations in Cyber-Physical Systems</a></h4>
-                <h5> In: <i>IEEE Journal of Emerging and Selected Topics in Power Electronics</i>,  doi: 10.1109/JESTPE.2021.3051876.</h5>
-                <h5>S. K. Mazumder et al.</h5>
-                <span class="__dimensions_badge_embed__" data-doi="10.1109/JESTPE.2021.3051876" data-style="large_rectangle"></span>
-            </div>
-
-            <!-- Pub. 2 -->
-
-                <div class="col-md-2">
-                <a href="https://ieeexplore.ieee.org/abstract/document/9308900">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccessload.PNG" alt="" width="150" height="200">
-                </a>
-                </div>
-
-                <div class="col-md-4">
-                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9308900">On the Feasibility of Load-Changing Attacks in Power Systems during the COVID-19 Pandemic</a></h4>
-                <h5> In: <i>IEEE Access</i>, vol. 9, pp. 2545-2563, 2021, doi: 10.1109/ACCESS.2020.3047374.</h5>
-                <h5> <strong>J. Ospina</strong>, X. Liu, C. Konstantinou and Y. Dvorkin</h5>
-                <span class="__dimensions_badge_embed__" data-doi="10.1109/ACCESS.2020.3047374" data-style="large_rectangle"></span>
-                </div>
-            </div>
-
-
-            <hr>
-
-             <!-- Pub. 1 -->
-            <div class="row">
-              <div class="col-md-2">
-                <a href="https://ieeexplore.ieee.org/abstract/document/9261465">
-                  <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieeeaccessdeep.PNG" alt="" width="150" height="200">
-                </a>
-              </div>
-
-              <div class="col-md-4">
-                <h4><a href="https://ieeexplore.ieee.org/abstract/document/9261465">Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems</a></h4>
-                <h5> In: <i>IEEE Access</i>, vol. 8, pp. 208378-208394, 2020, doi: 10.1109/ACCESS.2020.3038769.</h5>
-                <h5>X. Liu, <strong>J. Ospina</strong>, C. Konstantinou</h5>
-                <span class="__dimensions_badge_embed__" data-doi="10.1109/access.2020.3038769" data-style="large_rectangle"></span>
-              </div>
-
-             <!-- Pub. 2 -->
-
-               <div class="col-md-2">
-                 <a href="https://dl.acm.org/doi/abs/10.1145/3411498.3422926">
-                   <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/demotrust.PNG" alt="" width="150" height="200">
-                 </a>
-               </div>
-
-               <div class="col-md-4">
-                 <h4><a href="https://dl.acm.org/doi/abs/10.1145/3411498.3422926">DEMO: Trustworthy Cyberphysical Energy Systems: Time-Delay Attacks in a Real-Time Co-Simulation Environment</a></h4>
-                 <h5> In: <i>Proceedings of the 2020 Joint Workshop on CPS&IoT Security and Privacy</i>, in conjunction with the ACM Conference on Computer and Communications Security (CCS), 2020, doi: https://doi.org/10.1145/3411498.3422926 .</h5>
-                 <h5> <strong>J. Ospina</strong>, I. Zografopoulos, X. Liu, C. Konstantinou</h5>
-                 <span class="__dimensions_badge_embed__" data-doi="10.1145/3411498.3422926" data-style="large_rectangle"></span>
-               </div>
-            </div>
-
-
-            <hr>
-
-             <!-- Pub. 1 -->
-             <div class="row">
-                <div class="col-md-2">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/9283536">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/iccd2020.PNG" alt="" width="150" height="200">
-                  </a>
-                </div>
-  
-                <div class="col-md-4">
-                  <h4><a href="https://ieeexplore.ieee.org/abstract/document/9283536">Special Session: Harness the Power of DERs for Secure Communications in Electric Energy Systems</a></h4>
-                  <h5> In: <i>2020 IEEE 38th International Conference on Computer Design (ICCD)</i>, 2020.</h5>
-                  <h5>I. Zografopoulos, <strong>J. Ospina</strong>, C. Konstantinou</h5>
-                  <span class="__dimensions_badge_embed__" data-doi="10.1109/ICCD50377.2020.00025" data-style="large_rectangle"></span>
-                </div>
-  
-               <!-- Pub. 2 -->
-  
-                 <div class="col-md-2">
-                   <a href="https://ieeexplore.ieee.org/abstract/document/9311540">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/cyberpels.PNG" alt="" width="150" height="200">
-                   </a>
-                 </div>
-  
-                 <div class="col-md-4">
-                   <h4><a href="https://ieeexplore.ieee.org/abstract/document/9311540">Modeling Communication Networks in a Real-Time Simulation Environment for Evaluating Controls of Shipboard Power Systems</a></h4>
-                   <h5> In: <i>2020 IEEE CyberPELS (CyberPELS)</i>, 2020.</h5>
-                   <h5> C. Ogilvie, <strong>J. Ospina</strong>, C. Konstantinou, T. Vu, M. Stanovich, K. Schoder, M. Steurer</h5>
-                   <span class="__dimensions_badge_embed__" data-doi="10.1109/CyberPELS49534.2020.9311540" data-style="large_rectangle"></span>
-                 </div>
-              </div>
-
-              <hr>
-            
-              <!-- Pub. 1 -->
-            <div class="row">
-              <div class="col-md-2">
-                <a href="https://ieeexplore.ieee.org/document/8894839">
-                  <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_ec_cover.png" alt="" width="150" height="200">
-                </a>
-              </div>
-
-              <div class="col-md-4">
-                <h4><a href="https://ieeexplore.ieee.org/document/8894839">Controller Hardware in the Loop Validation of A Graph Search Based Energy Management Strategy for Grid-Connected Distributed Energy Resources</a></h4>
-                <h5> In: <i>IEEE Transactions on Energy Conversion</i>, vol. 35, no. 1, pp. 520-528, March 2020.</h5>
-                <h5>A. Newaz, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
-                <span class="__dimensions_badge_embed__" data-doi="10.1109/tec.2019.2952575" data-style="large_rectangle"></span>
-              </div>
-
-             <!-- Pub. 2 -->
-
-               <div class="col-md-2">
-                 <a href="https://digital-library.theiet.org/content/journals/10.1049/joe.2019.0896">
-                   <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ietje_cover.png" alt="" width="150" height="200">
-                 </a>
-               </div>
-
-               <div class="col-md-4">
-                 <h4><a href="https://digital-library.theiet.org/content/journals/10.1049/joe.2019.0896">Fault Classification and Location Identification in a Smart Distribution Network using ANN and Advanced Metering Infrastructure with Real-time Data</a></h4>
-                 <h5> In: <i>The Journal of Engineering</i>, (1), p. 19-28, 2019.</h5>
-                 <h5> M. U. Usman, <strong>J. Ospina</strong>, Md. O. Faruque</h5>
-                 <span class="__dimensions_badge_embed__" data-doi="10.1049/joe.2019.0896" data-style="large_rectangle"></span>
-               </div>
-            </div>
-
-
-            <hr>
-
-            <!-- Pub. 1 -->
-          <div class="row">
-            <div class="col-md-2">
-              <a href="https://ieeexplore.ieee.org/document/8805394">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ieee_pej_cover.PNG" alt="" width="150" height="200">
-              </a>
-            </div>
-
-            <div class="col-md-4">
-              <h4><a href="https://ieeexplore.ieee.org/document/8805394">Sampling-Based Model Predictive Control of PV-Integrated Energy Storage System Considering Power Generation Forecast and Real-Time Price</a></h4>
-              <h5> In: <i>IEEE Power and Energy Technology Systems Journal</i>, vol. 6, no. 4, pp. 195-207, Dec. 2019.</h5>
-              <h5><strong>J. Ospina</strong>, N. Gupta, A. Newaz, M. Harper, M. Omar Faruque, E. G. Collins, R. Meeker, G. Lofman.</h5>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/JPETS.2019.2935703" data-style="large_rectangle"></span>
-            </div>
-
-           <!-- Pub. 2 -->
-
-             <div class="col-md-2">
-               <a href="https://ieeexplore.ieee.org/abstract/document/8973628">
-                 <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2019_cover.PNG" alt="" width="150" height="200">
-               </a>
-             </div>
-
-             <div class="col-md-4">
-               <h4><a href="https://ieeexplore.ieee.org/abstract/document/8973628">Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control Considering PV Generation Forecast and Real-time Pricing</a></h4>
-               <h5> In: <i>2019 IEEE Power & Energy Society General Meeting (PESGM)</i>, Atlanta, GA, USA, 2019, pp. 1-5.</h5>
-               <h5><strong>J. Ospina</strong>, M. Harper, A. Newaz, M. Omar Faruque, E. G. Collins, R. Meeker, N. Ainsworth</h5>
-               <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM40551.2019.8973628" data-style="large_rectangle"></span>
-             </div>
-          </div>
-
-          <hr>
-          <!-- Pub. 1 -->
-        <div class="row">
-          <div class="col-md-2">
-            <a href="https://ieeexplore.ieee.org/abstract/document/8973496">
-              <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2019_cover.PNG" alt="" width="150" height="200">
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <h4><a href="https://ieeexplore.ieee.org/abstract/document/8973496">Coordinated Voltage Control in Distribution Systems with Distributed Generations</a></h4>
-            <h5> In: <i>2019 IEEE Power & Energy Society General Meeting (PESGM)</i>,  Atlanta, GA, USA, 2019, pp. 1-5.</h5>
-            <h5>A. Newaz, <strong>J. Ospina</strong>, M. O. Faruque.</h5>
-            <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM40551.2019.8973496" data-style="large_rectangle"></span>
-          </div>
-
-         <!-- Pub. 2 -->
-
-           <div class="col-md-2">
-             <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rpg.2018.5779">
-               <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/ietrpg_cover.jpg" alt="" width="150" height="200">
-             </a>
-           </div>
-
-           <div class="col-md-4">
-             <h4><a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rpg.2018.5779">Forecasting of PV Plant Output Using Hybrid Wavelet-Based LSTM-DNN Structure Model</a></h4>
-             <h5> In: <i>IET Renewable Power Generation</i>, vol. 13, no. 7, pp. 1087-1095, 20 5 2019.</h5>
-             <h5><strong>J. Ospina</strong>, A. Newaz, M. O. Faruque.</h5>
-             <span class="__dimensions_badge_embed__" data-doi="10.1049/iet-rpg.2018.5779" data-style="large_rectangle"></span>
-           </div>
+            </section>
         </div>
-
-        <hr>
-        <!-- Pub. 1 -->
-      <div class="row">
-        <div class="col-md-2">
-          <a href="https://ieeexplore.ieee.org/abstract/document/8586471">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/pes_2018_cover.png" alt="" width="150" height="200">
-          </a>
-        </div>
-
-        <div class="col-md-4">
-          <h4><a href="https://ieeexplore.ieee.org/abstract/document/8586471">Fault Classification and Location Identification in a Smart Distribution Network Using ANN</a></h4>
-          <h5> In: <i>2018 IEEE Power & Energy Society General Meeting (PESGM)</i>, Portland, OR, 2018, pp. 1-6.</h5>
-          <h5>M. U. Usman, <strong>J. Ospina</strong>, M. O. Faruque.</h5>
-          <span class="__dimensions_badge_embed__" data-doi="10.1109/PESGM.2018.8586471" data-style="large_rectangle"></span>
-        </div>
-
-       <!-- Pub. 2 -->
-
-         <div class="col-md-2">
-           <a href="https://ieeexplore.ieee.org/abstract/document/8440304">
-             <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/tandd_cover.png" alt="" width="150" height="200">
-           </a>
-         </div>
-
-         <div class="col-md-4">
-           <h4><a href="https://ieeexplore.ieee.org/abstract/document/8440304">Cost Optimal Control of Microgrids Having Solar Power and Energy Storage</a></h4>
-           <h5> In: <i>2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D)</i>, Denver, CO, 2018, pp. 1-9.</h5>
-           <h5>N. Gupta, G. Francis, <strong>J. Ospina</strong>, A. Newaz, E. G. Collins, O. Faruque, R. Meeker, M. Harper.</h5>
-           <span class="__dimensions_badge_embed__" data-doi="10.1109/TDC.2018.8440304" data-style="large_rectangle"></span>
-         </div>
-      </div>
-
-      <hr>
-      <!-- Pub. 1 -->
-    <div class="row">
-      <div class="col-md-2">
-        <a href="https://patents.google.com/patent/US20190036340A1/en">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/patent_cover.png" alt="" width="150" height="200">
-        </a>
-      </div>
-
-      <div class="col-md-4">
-        <h4><a href="https://patents.google.com/patent/US20190036340A1/en">Optimal Control Technology for Distributed Energy Resources</a></h4>
-        <h5> <i>Patent. Florida State University Research Foundation Inc.</i>, 2019/2021. U.S. Patent 11,043,815.</h5>
-        <h5>R. Meeker, M. O. Faruque, <strong>J. Ospina</strong>, A. Newaz, E. G. Collins, G. Francis, N. Gupta.</h5>
-      </div>
-
-
-      <!-- Pub. 2 -->
-
-      <div class="col-md-2">
-        <a href="https://purl.lib.fsu.edu/diginole/2019_Fall_Ospina_fsu_0071E_15540">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="images/covers/phd_thesis_cover.PNG" alt="" width="150" height="200">
-        </a>
-      </div>
-
-      <div class="col-md-4">
-        <h4><a href="https://purl.lib.fsu.edu/diginole/2019_Fall_Ospina_fsu_0071E_15540">Energy Management System for Smart Buildings and Microgrids Using Sampling-Based Model Predictive Control (SBMPC) and Machine Learning</a></h4>
-        <h5> <i>Ph.D. Thesis</i>, Florida State University, 2019, Tallahassee, Florida.</h5>
-        <h5><strong>J. Ospina</strong></h5>
-        <!-- <span class="__dimensions_badge_embed__" data-doi="10.1109/TDC.2018.8440304" data-style="large_rectangle"></span> -->
-      </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <a name="talks_info"><h3 class="page-header">Talks and Presentations</h3></a>
-            </div>
-            <ul>
-            <li>"Modeling & Co-optimizing Integrated Transmission & Distribution Systems". Invited presentation, Department of Electrical and Computer Engineering - Auburn University. February 2024. | <a href="slides/LA-UR-24-20818_AuburnUniversity.pdf"><strong>Slides</strong></a></li>
-            <li>"Co-optimizing Integrated Transmission-Distribution Systems using PowerModelsITD.jl". Invited panelist on State-of-the-Art Review on TSO-DSO Coordination Models and Solution Methodologies panel at the 2023 IEEE Power & Energy Society General Meeting. July 2023. | <a href="slides/LA-UR-23-26135_IEEEPES_Panel_JuanOspina_LANL.pdf"><strong>Slides</strong></a></li>
-            <li>"Modeling and Co-optimizing Integrated Transmission-Distribution Systems". Invited presentation talk for New Mexico State University (NMSU) & Microgrid Systems Laboratory seminar. May 2023. | <a href="slides/NMSU_Workshop_InvitedTalk_JuanOspina -LA-UR-23-24536.pdf"><strong>Slides</strong></a></li>
-            <li>"Modeling and Co-optimizing Integrated Transmission-Distribution (ITD) Systems using PowerModelsITD.jl". Poster session for Office of Electricity (OE) Deparment of Energy (DOE) visit. May 2023. | <a href="slides/DOE-OE_PosterEvent_JuanOspina_LA-UR-23-25011.pdf"><strong>Slides</strong></a></li>
-            <li>"Towards the Secure Operation of Cyber-Physical Energy Systems (CPES)". Invited presentation talk for the Research on Computing Systems (ROCS) Joint Group at King Abdullah University of Science and Technology (KAUST). November 2022. | <a href="slides/ROCS_InvitedTalk_JuanOspina-LA-UR-22-31034.pdf"><strong>Slides</strong></a></li>
-            <li><a href="https://www.nrel.gov/grid/assets/pdfs/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf">"Towards the Optimization of Integrated Transmission-Distribution Networks via the Rapid Prototyping of OPF Formulations with PowerModelsITD.jl".</a> NREL Fifth Workshop on Autonomous Energy Systems. July 2022. | <a href="slides/2022aes-ospina-towards-the-optimization-of-integrated-transmission.pdf"><strong>Slides</strong></a></li>
-            <li><a href="https://attend.ieee.org/dmc-2022/framework-for-evaluating-cyberthreats-targeted-at-cyber-physical-energy-systems-cpes-from-threat-modeling-to-co-simulation-case-studies/">"Framework for Evaluating Cyberthreats targeted at Cyber-Physical Energy Systems (CPES): From Threat Modeling to Co-simulation Case Studies”.</a> IEEE Power Electronics Society (PELS) TC10 Design Methodologies web-seminar series. April 2022. | <a href="slides/PELS_TC10_PresentationSlides-LA-UR-22-22768.pdf"><strong>Slides</strong></a></li>
-            <li><a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou">"DEMO: Trustworthy CPES: Time-Delay Attacks in a Real-Time Co-Simulation Environment”.</a> November 2020. | <a href="https://www.youtube.com/watch?v=Ec1kfBTLTlw&ab_channel=HarrysKonstantinou"><strong>Video</strong></a></li>
-            <li>"Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control (SBMPC)", GEARED Poster Session - Distributech 2019, New Orleans, February 2019.</li>
-            <li><a href="http://sites.ieee.org/tallahassee/2018/11/01/joint-2018-famu-fsu-coe-caps-georgia-institute-of-technology-pdl/">"Optimal Control of PV-Integrated Energy Storage System using SBMPC"</a>, FAMU-FSU/CAPS-Georgia Tech. Joint Seminar, November 2018. </li>
-            <li>"Cost Optimal Control of Microgrids Having Solar Power and Energy Storage", 2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D) - PES Poster Session, April 2018. </li>
-            <li>"Forecasting of PV Plant Output Using Weather Data and Wavelet-Based Neural Network", FEEDER Seminar Series Fall 2017, October 2017. </li>
-            <li>"Optimal Control of PV and Energy Storage Considering Current and Future Weather and Real-time Price of Energy", FAMU-FSU COE ECE Seminar, October 2017. </li>
-            <li>"Development of Optimal Control Systems developed for the Smart Grid", 2017 Collaborative Collision Environment, Florida State University, September 2017. </li>
-            <li>"Smart Enterprise Energy Management System Under Real-time Pricing and Demand Response", GEARED Poster Session - Distributech 2017, San Diego, February 2017. </li>
-            </ul>
-        </div>
-
-
-        <div class="row">
-            <div class="col-lg-12">
-                <a name="tools_info"><h3 class="page-header">Tools and Software Experience</h3></a>
-            </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa fa-terminal" ></i> Programming Languages </h4>
-                    </div>
-                    <div class="panel-body">
-                        <ul>
-                            <li>C/C++</li>
-                            <li>Python </li>
-                            <li>Julia </li>
-                            <li>MATLAB</li>
-                            <li>Assembly</li>
-                            <li>HTML5</li>
-                            <li>JavaScript </li>
-                            <li>PHP</li>
-                            <li>VHDL</li
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa fa-tasks" ></i> Software Tools </h4>
-                    </div>
-                    <div class="panel-body">
-                        <ul>
-                            <li>Docker</li>
-                            <li>Git </li>
-                            <li>Tensorflow</li>
-                            <li>OpenDSS</li>
-                            <li>MATLAB/Simulink</li>
-                            <li>PSAT</li>
-                            <li>RT-LAB (OPAL-RT)</li>
-                            <li>PowerModels.jl</li>
-                            <li>PowerModelsDistribution.jl</li>
-                            <li>PowerModelsITD.jl</li>
-                            <li>MATPOWER</li>
-                            <li>CORE: Common Open Research Emulator</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa fa-tasks" ></i> Software Tools </h4>
-                    </div>
-                    <div class="panel-body">
-                        <ul>
-                            <li>ExataCPS</li>
-                            <li>Keras</li>
-                            <li>OpenDNP3</li>
-                            <li>OpenPDC</li>
-                            <li>NI LabVIEW</li>
-                            <li>Modelsim Quartus</li>
-                            <li>Multisim</li>
-                            <li>System Advisor Model (SAM)</li>
-                            <li>OrCAD/Diptrace</li>
-                            <li>AutoCAD Electrical</li>
-                            <li>Databases: SQL, SQLite, MySQL</li>
-                            <li>GNU/Linux</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p> Juan Ospina - 2024/5 </p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
