@@ -1,0 +1,428 @@
+{
+  "stats": {
+    "citations": 1522,
+    "h_index": 17,
+    "i10_index": 24,
+    "updated": "2026-11-13"
+  },
+  "publications": {
+    "qxL8FJ1GzNcC": {
+      "title": "Modeling and Rapid Prototyping of Integrated Transmission-Distribution OPF Formulations with PowerModelsITD.jl",
+      "authors": "J. Ospina, D. M. Fobes, R. Bent, A. Wächter",
+      "venue": "IEEE Transactions on Power Systems, 2023",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10015147",
+      "doi": "10.1109/TPWRS.2023.3234725",
+      "year": 2023,
+      "cites": 18,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:qxL8FJ1GzNcC",
+      "tile": "IEEE Transactions on Power Systems"
+    },
+    "4DMP91E08xMC": {
+      "title": "On the Feasibility of Market Manipulation and Energy Storage Arbitrage via Load-Altering Attacks",
+      "authors": "J. Ospina, D. M. Fobes, R. Bent",
+      "venue": "Energies, Special Issue Cyber Security in Modern Power Systems, 2023",
+      "url": "https://www.mdpi.com/1996-1073/16/4/1670",
+      "doi": "10.3390/en16041670",
+      "year": 2023,
+      "cites": 15,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:4DMP91E08xMC",
+      "tile": "Energies (MDPI)"
+    },
+    "ULOm3_A8WrAC": {
+      "title": "Load-Altering Attacks Against Power Grids under COVID-19 Low-Inertia Conditions",
+      "authors": "S. Lakshminarayana, J. Ospina, C. Konstantinou",
+      "venue": "IEEE Open Access Journal of Power and Energy, vol. 9, pp. 226-240, 2022",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9726888",
+      "doi": "10.1109/OAJPE.2022.3155973",
+      "year": 2022,
+      "cites": 50,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:ULOm3_A8WrAC",
+      "tile": "IEEE Open Access Journal of Power & Energy"
+    },
+    "YOwf2qJgpHMC": {
+      "title": "CPES-QSM: A Quantitative Method Towards the Secure Operation of Cyber-Physical Energy Systems",
+      "authors": "J. Ospina, V. Venkataramanan, C. Konstantinou",
+      "venue": "IEEE Internet of Things Journal, 2022",
+      "url": "https://ieeexplore.ieee.org/document/9904852",
+      "doi": "10.1109/JIOT.2022.3210402",
+      "year": 2022,
+      "cites": 13,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:YOwf2qJgpHMC",
+      "tile": "IEEE Internet of Things Journal"
+    },
+    "3fE2CSJIrl8C": {
+      "title": "Evaluation of Communication Network Models for Shipboard Power Systems",
+      "authors": "J. Ospina, C. Konstantinou, M. Stanovich, M. Steurer",
+      "venue": "2021 IEEE Electric Ship Technologies Symposium (ESTS), 1-9, August 2021",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9512343",
+      "doi": "10.1109/ESTS49166.2021.9512343",
+      "year": 2021,
+      "cites": 10,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:3fE2CSJIrl8C",
+      "tile": "IEEE Electric Ship Technologies Symposium"
+    },
+    "MXK_kJrjxJIC": {
+      "title": "Controller Hardware-In-the-Loop Validation of Coordinated Voltage Control Scheme for Distribution Systems Containing Inverter-Based Distributed Generation",
+      "authors": "A. Newaz, J. Ospina, Md. O. Faruque",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Industrial Electronics, Early Access",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9450018",
+      "doi": "10.1109/JESTIE.2021.3087944",
+      "year": 2021,
+      "cites": 14,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:MXK_kJrjxJIC",
+      "tile": "IEEE J. Emerging & Selected Topics in Ind. Electronics"
+    },
+    "8k81kl-MbHgC": {
+      "title": "Faster than Real-Time Simulation: Methods, Tools, and Applications",
+      "authors": "X. Liu, J. Ospina, I. Zografopoulos, A. Russell, C. Konstantinou",
+      "venue": "MSCPES '21: Proceedings of the 9th Workshop on Modeling and Simulation of Cyber-Physical Energy Systems, Article No.: 3, Pages 1-–7, May 2021",
+      "url": "https://dl.acm.org/doi/10.1145/3470481.3472703",
+      "doi": "10.1145/3470481.3472703",
+      "year": 2021,
+      "cites": 25,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:8k81kl-MbHgC",
+      "tile": "ACM MSCPES Workshop",
+      "type": "Workshop"
+    },
+    "0EnyYjriUFMC": {
+      "title": "Cyber-Physical Energy Systems Security: Threat Modeling, Risk Assessment, Resources, Metrics, and Case Studies",
+      "authors": "I. Zografopoulos, J. Ospina, X. Liu, C. Konstantinou",
+      "venue": "IEEE Access, vol. 9, pp. 29775-29818, 2021",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9351954",
+      "doi": "10.1109/ACCESS.2021.3058403",
+      "year": 2021,
+      "cites": 468,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:0EnyYjriUFMC",
+      "tile": "IEEE Access"
+    },
+    "5nxA0vEk-isC": {
+      "title": "A Review of Current Research Trends in Power-Electronic Innovations in Cyber-Physical Systems",
+      "authors": "S. K. Mazumder et al",
+      "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9324816",
+      "doi": "10.1109/JESTPE.2021.3051876",
+      "year": 2021,
+      "cites": 162,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:5nxA0vEk-isC",
+      "tile": "IEEE J. Emerging & Selected Topics in Power Electronics"
+    },
+    "hqOjcs7Dif8C": {
+      "title": "On the Feasibility of Load-Changing Attacks in Power Systems during the COVID-19 Pandemic",
+      "authors": "J. Ospina, X. Liu, C. Konstantinou and Y. Dvorkin",
+      "venue": "IEEE Access, vol. 9, pp. 2545-2563, 2021",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9308900",
+      "doi": "10.1109/ACCESS.2020.3047374",
+      "year": 2020,
+      "cites": 63,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:hqOjcs7Dif8C",
+      "tile": "IEEE Access"
+    },
+    "roLk4NBRz8UC": {
+      "title": "Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems",
+      "authors": "X. Liu, J. Ospina, C. Konstantinou",
+      "venue": "IEEE Access, vol. 8, pp. 208378-208394, 2020",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9261465",
+      "doi": "10.1109/access.2020.3038769",
+      "year": 2020,
+      "cites": 91,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:roLk4NBRz8UC",
+      "tile": "IEEE Access"
+    },
+    "ufrVoPGSRksC": {
+      "title": "DEMO: Trustworthy Cyberphysical Energy Systems: Time-Delay Attacks in a Real-Time Co-Simulation Environment",
+      "authors": "J. Ospina, I. Zografopoulos, X. Liu, C. Konstantinou",
+      "venue": "Proceedings of the 2020 Joint Workshop on CPS&IoT Security and Privacy, in conjunction with the ACM Conference on Computer and Communications Security (CCS), 2020",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3411498.3422926",
+      "doi": "10.1145/3411498.3422926",
+      "year": 2020,
+      "cites": 13,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:ufrVoPGSRksC",
+      "tile": "ACM CPS-SPC Workshop (CCS)",
+      "type": "Workshop"
+    },
+    "Se3iqnhoufwC": {
+      "title": "Special Session: Harness the Power of DERs for Secure Communications in Electric Energy Systems",
+      "authors": "I. Zografopoulos, J. Ospina, C. Konstantinou",
+      "venue": "2020 IEEE 38th International Conference on Computer Design (ICCD), 2020",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9283536",
+      "doi": "10.1109/ICCD50377.2020.00025",
+      "year": 2020,
+      "cites": 17,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Se3iqnhoufwC",
+      "tile": "IEEE ICCD"
+    },
+    "YsMSGLbcyi4C": {
+      "title": "Modeling Communication Networks in a Real-Time Simulation Environment for Evaluating Controls of Shipboard Power Systems",
+      "authors": "C. Ogilvie, J. Ospina, C. Konstantinou, T. Vu, M. Stanovich, K. Schoder, M. Steurer",
+      "venue": "2020 IEEE CyberPELS (CyberPELS), 2020",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9311540",
+      "doi": "10.1109/CyberPELS49534.2020.9311540",
+      "year": 2020,
+      "cites": 18,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:YsMSGLbcyi4C",
+      "tile": "IEEE CyberPELS",
+      "type": "Conference"
+    },
+    "IjCSPb-OGe4C": {
+      "title": "Controller Hardware in the Loop Validation of A Graph Search Based Energy Management Strategy for Grid-Connected Distributed Energy Resources",
+      "authors": "A. Newaz, J. Ospina, Md. O. Faruque",
+      "venue": "IEEE Transactions on Energy Conversion, vol. 35, no. 1, pp. 520-528, March 2020",
+      "url": "https://ieeexplore.ieee.org/document/8894839",
+      "doi": "10.1109/tec.2019.2952575",
+      "year": 2019,
+      "cites": 35,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:IjCSPb-OGe4C",
+      "tile": "IEEE Transactions on Energy Conversion"
+    },
+    "qjMakFHDy7sC": {
+      "title": "Fault Classification and Location Identification in a Smart Distribution Network using ANN and Advanced Metering Infrastructure with Real-time Data",
+      "authors": "M. U. Usman, J. Ospina, Md. O. Faruque",
+      "venue": "The Journal of Engineering, (1), pp. 19-28",
+      "year": 2020,
+      "url": "https://doi.org/10.1049/joe.2019.0896",
+      "cites": 28,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:qjMakFHDy7sC",
+      "doi": "10.1049/joe.2019.0896",
+      "tile": "The Journal of Engineering (IET)"
+    },
+    "2osOgNQ5qMEC": {
+      "title": "Sampling-Based Model Predictive Control of PV-Integrated Energy Storage System Considering Power Generation Forecast and Real-Time Price",
+      "authors": "J. Ospina, N. Gupta, A. Newaz, M. Harper, M. Omar Faruque, E. G. Collins, R. Meeker, G. Lofman",
+      "venue": "IEEE Power and Energy Technology Systems Journal, vol. 6, no. 4, pp. 195-207, Dec. 2019",
+      "url": "https://ieeexplore.ieee.org/document/8805394",
+      "doi": "10.1109/JPETS.2019.2935703",
+      "year": 2019,
+      "cites": 57,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:2osOgNQ5qMEC",
+      "tile": "IEEE Power & Energy Technology Systems Journal"
+    },
+    "Tyk-4Ss8FVUC": {
+      "title": "Optimal Energy Management of Microgrids using Sampling-Based Model Predictive Control Considering PV Generation Forecast and Real-time Pricing",
+      "authors": "J. Ospina, M. Harper, A. Newaz, M. Omar Faruque, E. G. Collins, R. Meeker, N. Ainsworth",
+      "venue": "2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8973628",
+      "doi": "10.1109/PESGM40551.2019.8973628",
+      "year": 2019,
+      "cites": 4,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Tyk-4Ss8FVUC",
+      "tile": "IEEE PES General Meeting"
+    },
+    "zYLM7Y9cAGgC": {
+      "title": "Coordinated Voltage Control in Distribution Systems with Distributed Generations",
+      "authors": "A. Newaz, J. Ospina, M. O. Faruque",
+      "venue": "2019 IEEE Power & Energy Society General Meeting (PESGM), Atlanta, GA, USA, 2019, pp. 1-5",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8973496",
+      "doi": "10.1109/PESGM40551.2019.8973496",
+      "year": 2019,
+      "cites": 10,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:zYLM7Y9cAGgC",
+      "tile": "IEEE PES General Meeting"
+    },
+    "d1gkVwhDpl0C": {
+      "title": "Forecasting of PV Plant Output Using Hybrid Wavelet-Based LSTM-DNN Structure Model",
+      "authors": "J. Ospina, A. Newaz, M. O. Faruque",
+      "venue": "IET Renewable Power Generation, vol. 13, no. 7, pp. 1087-1095, 20 5 2019",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rpg.2018.5779",
+      "doi": "10.1049/iet-rpg.2018.5779",
+      "year": 2019,
+      "cites": 164,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:d1gkVwhDpl0C",
+      "tile": "IET Renewable Power Generation"
+    },
+    "u-x6o8ySG0sC": {
+      "title": "Fault Classification and Location Identification in a Smart Distribution Network Using ANN",
+      "authors": "M. U. Usman, J. Ospina, M. O. Faruque",
+      "venue": "2018 IEEE Power & Energy Society General Meeting (PESGM), Portland, OR, 2018, pp. 1-6",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8586471",
+      "doi": "10.1109/PESGM.2018.8586471",
+      "year": 2018,
+      "cites": 55,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:u-x6o8ySG0sC",
+      "tile": "IEEE PES General Meeting"
+    },
+    "u5HHmVD_uO8C": {
+      "title": "Cost Optimal Control of Microgrids Having Solar Power and Energy Storage",
+      "authors": "N. Gupta, G. Francis, J. Ospina, A. Newaz, E. G. Collins, O. Faruque, R. Meeker, M. Harper",
+      "venue": "2018 IEEE/PES Transmission and Distribution Conference and Exposition (T&D), Denver, CO, 2018, pp. 1-9",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8440304",
+      "doi": "10.1109/TDC.2018.8440304",
+      "year": 2018,
+      "cites": 8,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:u5HHmVD_uO8C",
+      "tile": "IEEE PES T&D Conference"
+    },
+    "9yKSN-GCB0IC": {
+      "title": "Optimal Control Technology for Distributed Energy Resources",
+      "authors": "R. Meeker, M. O. Faruque, J. Ospina, A. Newaz, E. G. Collins, G. Francis, N. Gupta",
+      "venue": "Patent. Florida State University Research Foundation Inc., 2019/2021. U.S. Patent 11,043,815",
+      "url": "https://patents.google.com/patent/US20190036340A1/en",
+      "year": 2021,
+      "cites": 46,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:9yKSN-GCB0IC",
+      "tile": "U.S. Patent 11,043,815"
+    },
+    "WF5omc3nYNoC": {
+      "title": "Energy Management System for Smart Buildings and Microgrids Using Sampling-Based Model Predictive Control (SBMPC) and Machine Learning",
+      "authors": "J. Ospina",
+      "venue": "Ph.D. Thesis, Florida State University, 2019, Tallahassee, Florida",
+      "url": "https://purl.lib.fsu.edu/diginole/2019_Fall_Ospina_fsu_0071E_15540",
+      "doi": "10.1109/TDC.2018.8440304",
+      "year": 2019,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:WF5omc3nYNoC",
+      "tile": "Florida State University"
+    },
+    "IWHjjKOFINEC": {
+      "title": "Technical Report on Resilient and Secure Large-Scale Energy Internet Systems",
+      "authors": "I. Zografopoulos, K. Largman, I. O. Romero, S. M. Rashid, Y. Chen, G. Fragkos, ...",
+      "venue": "arXiv preprint arXiv:2608.12916",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.12916",
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:IWHjjKOFINEC",
+      "tile": "arXiv",
+      "type": "Report"
+    },
+    "ZeXyd9-uunAC": {
+      "title": "Smoothed Two-Stage Decomposition Algorithm for Solving Large-Scale Transmission and Distribution AC-OPF Problems",
+      "authors": "J. Ospina, M. Garcia, X. Luo, A. Wachter, D. M. Fobes, R. Bent",
+      "venue": "arXiv preprint arXiv:2607.16430",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.16430",
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:ZeXyd9-uunAC",
+      "tile": "arXiv"
+    },
+    "qUcmZB5y_30C": {
+      "title": "Resilient and Secure Large-Scale Energy Internet Systems",
+      "authors": "K Largman, IO Romero, SMZU Rashid, Y Chen, G Fragkos, ...",
+      "venue": "",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:qUcmZB5y_30C",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:qUcmZB5y_30C"
+    },
+    "osti-3991173": {
+      "title": "Guidance on Transmission Siting in the United States: Transmission Siting Roadmap for the Chiefs' Trail Project",
+      "authors": "J. Ospina, M. Ewers, R. W. Bent, A. Mate",
+      "venue": "Technical Report LA-UR-26-28558, Los Alamos National Laboratory (OSTI)",
+      "year": 2025,
+      "url": "https://www.osti.gov/biblio/3991173",
+      "doi": "10.2172/3991173",
+      "tile": "Los Alamos National Laboratory",
+      "type": "Report"
+    },
+    "dhFuZR0502QC": {
+      "title": "A Tri-Level Distribution Locational Marginal Price-Based Demand Response Framework",
+      "authors": "V. Pandey, T. Rawat, J. Ospina, Y. Dvorkin, C. Konstantinou",
+      "venue": "Electric Power Systems Research, vol. 241, 111398",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.epsr.2024.111398",
+      "doi": "10.1016/j.epsr.2024.111398",
+      "cites": 22,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:dhFuZR0502QC",
+      "tile": "Electric Power Systems Research"
+    },
+    "7PzlFSSx8tAC": {
+      "title": "Cyber-Physical Interdependence for Power System Operation and Control",
+      "authors": "I. Zografopoulos, A. Srivastava, C. Konstantinou, J. Zhao, A. A. Jahromi, ...",
+      "venue": "IEEE Transactions on Smart Grid, vol. 16, no. 3, pp. 2554-2573",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:7PzlFSSx8tAC",
+      "cites": 96,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:7PzlFSSx8tAC",
+      "tile": "IEEE Transactions on Smart Grid"
+    },
+    "QIV2ME_5wuYC": {
+      "title": "Modeling & Co-optimizing Integrated Transmission & Distribution Systems [Slides]",
+      "authors": "JJ Ospina Casas",
+      "venue": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:QIV2ME_5wuYC",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:QIV2ME_5wuYC"
+    },
+    "mVmsd5A6BfQC": {
+      "title": "Cyber-physical interdependence for power system operation and control",
+      "authors": "AA Jahromi, A Srivastava, A Chawla, B Nguyen, B Tan, S Bu, C Li, ...",
+      "venue": "IEEE Power and Energy Society",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:mVmsd5A6BfQC",
+      "cites": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:mVmsd5A6BfQC",
+      "hide": true
+    },
+    "9ZlFYXVOiuMC": {
+      "title": "Modeling and Co-optimizing Integrated Transmission-Distribution Systems [Slides]",
+      "authors": "JJ Ospina Casas",
+      "venue": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:9ZlFYXVOiuMC",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:9ZlFYXVOiuMC"
+    },
+    "aqlVkmm33-oC": {
+      "title": "Towards the Secure Operation of Cyber-Physical Energy Systems (CPES)[Slides]",
+      "authors": "JJ Ospina Casas",
+      "venue": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+      "year": 2022,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:aqlVkmm33-oC",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:aqlVkmm33-oC"
+    },
+    "Zph67rFs4hoC": {
+      "title": "Load-Altering Attacks under COVID-19 Low-Inertia Conditions",
+      "authors": "S Lakshminarayana, J Ospina, C Konstantinou",
+      "venue": "",
+      "year": 2022,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Zph67rFs4hoC",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Zph67rFs4hoC"
+    },
+    "kNdYIx-mwKoC": {
+      "title": "Optimal control technology for distributed energy resources",
+      "authors": "RH Meeker, MDO Faruque, J Ospina, A Newaz, E Collins, G Francis, ...",
+      "venue": "US Patent App. 17/324,733",
+      "year": 2021,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:kNdYIx-mwKoC",
+      "cites": 3,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:kNdYIx-mwKoC",
+      "hide": true
+    },
+    "L8Ckcad2t8MC": {
+      "title": "Optimal control technology for distributed energy resources",
+      "authors": "RH Meeker, MO Faruque, J Ospina, A Newaz, E Collins, G Francis, ...",
+      "venue": "Florida State Univ., Tallahassee, FL (United States)",
+      "year": 2021,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:L8Ckcad2t8MC",
+      "cites": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:L8Ckcad2t8MC",
+      "hide": true
+    },
+    "Wp0gIr-vW9MC": {
+      "title": "Cyber-physical energy systems security: threat modeling, risk assessment, resources, metrics, and case studies. IEEE Access 9, 29775–29818 (2021)",
+      "authors": "I Zografopoulos, J Ospina, X Liu, C Konstantinou",
+      "venue": "",
+      "year": 2021,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Wp0gIr-vW9MC",
+      "hide": true,
+      "cites": 10,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:Wp0gIr-vW9MC"
+    },
+    "KlAtU1dfN6UC": {
+      "title": "SPECIAL ISSUE ON SUSTAINABLE ENERGY THROUGH POWER ELECTRONICS INNOVATIONS IN CYBER PHYSICAL SYSTEMS",
+      "authors": "SK Mazumder, JH Enslin, F Blaabjerg, A Kulkarni, S Sahoo, HA Mantooth, ...",
+      "venue": "",
+      "year": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:KlAtU1dfN6UC",
+      "hide": true,
+      "cites": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=T39zSxsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=T39zSxsAAAAJ:KlAtU1dfN6UC"
+    }
+  }
+}
